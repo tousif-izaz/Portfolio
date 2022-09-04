@@ -3,8 +3,8 @@
 title: Tousif Izaz
 description: subtitle | affiliations | motto
 
-baseurl: /Portfolio #name of GitHub repository
-url: "https://tousif-izaz.github.io/" #custom url to be used instead of GitHub repository
+baseurl: "/Portfolio/" #name of GitHub repository
+url: "https://tousif-izaz.github.io" #custom url to be used instead of GitHub repository
 email: "tousif_izaz@live.com"#
 
 
