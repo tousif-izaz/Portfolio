@@ -3,9 +3,9 @@
 title: Tousif Izaz
 description: subtitle | affiliations | motto
 
-baseurl: "/Portfolio/" #name of GitHub repository
+baseurl: "/Portfolio" #name of GitHub repository
 url: "https://tousif-izaz.github.io" #custom url to be used instead of GitHub repository
-email: "tousif_izaz@live.com"#
+email: "tousif_izaz@live.com"
 
 
 highlighter: rouge
@@ -17,12 +17,11 @@ permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
 # Social media links in footer
-facebook: "facebookcom/Mr.TI7"
+facebook: "Mr.TI7"
 twitter: "#"
-linkedin: "#"
+linkedin: "tousif-izaz-68548b1a7"
 github: "tousif-izaz"
-researchgate: "#"
-orcid: "#"
+
 
 highlighter: rouge
 markdown: kramdown
