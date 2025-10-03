@@ -1,0 +1,68 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #f5f5dc;  /* Beige background */
+  margin: 0;
+  padding: 0;
+  color: #111;
+}
+
+header {
+  padding: 40px 60px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+header h1 span {
+  background-color: #fcd5ce;  /* Light peach highlight */
+  padding: 0 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.4);  /* Faded gray */
+  font-size: 18px;
+  position: relative;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #000;  /* Full black on hover */
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #000;
+  transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+  width: 100%;  /* Underline on hover */
+}
+
+.active {
+  color: #000;
+  font-weight: bold;
+}
+
+.active::after {
+  width: 100%;
+}
